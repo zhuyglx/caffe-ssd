@@ -12,8 +12,8 @@ yum install gflags-devel glog-devel lmdb-devel
 yum install atlas-devel 
 yum install python-devel 
 
-git clone https://coding.jd.com/zhuyangguang1/caffe-ssd.git 
-cd caffe-ssd
-git checkout ssd
+#git clone https://coding.jd.com/zhuyangguang1/caffe-ssd.git 
+cd /caffe-ssd
+#git checkout ssd
 cp Makefile.config.example Makefile.config 
 
