@@ -14,5 +14,6 @@ yum install python-devel
 
 git clone https://coding.jd.com/zhuyangguang1/caffe-ssd.git 
 cd caffe-ssd
+git checkout ssd
 cp Makefile.config.example Makefile.config 
 
